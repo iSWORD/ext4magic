@@ -29,6 +29,7 @@
 #define O_LARGEFILE 0
 #endif
 
+#include <sys/sysmacros.h>
 #include <ext2fs/ext2fs.h>
 #include "util.h"
 #include "hard_link_stack.h"
